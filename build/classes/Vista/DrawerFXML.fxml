@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Control.DrawerController">
+   <children>
+      <Pane fx:id="homePanel" layoutX="161.0" prefHeight="400.0" prefWidth="439.0" />
+      <Pane layoutX="1.0" layoutY="1.0" prefHeight="400.0" prefWidth="154.0">
+         <children>
+            <Button id="Button" fx:id="btnProducto" layoutX="9.0" layoutY="65.0" mnemonicParsing="false" onAction="#onClick" styleClass="Button" stylesheets="@../Estilos/botones.css" text="Button" />
+            <Button fx:id="btnCaracteristica" layoutX="14.0" layoutY="143.0" mnemonicParsing="false" onAction="#onClick" stylesheets="@../Estilos/botones.css" text="Button" />
+            <Button fx:id="btnEvaluar" layoutX="9.0" layoutY="231.0" mnemonicParsing="false" onAction="#onClick" stylesheets="@../Estilos/botones.css" text="Button" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
